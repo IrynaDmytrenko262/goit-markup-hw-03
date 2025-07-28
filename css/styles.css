@@ -159,16 +159,42 @@
 
   }
 
+  .qualitys-container{
+    padding: 120px 0;
+    display: flex;
+    align-items: center;
+    width: 1128px;
+    height: 104px;
+  }
+
   .qualitys-title{
 
   }
 
-  .qualitys-list{
+  .visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    border: 0;
+  }
 
+  .qualitys-list{
+    display: flex;
+    align-items: center;
+    gap: 24px;
   }
 
   .qualitys-list-item{
+    flex-basis: calc (100% - 72px) / 4;
+    display: block;
+    padding: ;
+  }
 
+  .qualitys-title-item{
+    margin-bottom: 8px;
   }
 
   /*main-sections-team*/
